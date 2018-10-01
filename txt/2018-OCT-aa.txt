@@ -65,8 +65,9 @@ rework Hominina - unclear
                                                                         Homo Habilus 2.1-1.5 mya
                                                                             Homo Ergaster 1.9-1.4 mya
                                                                             Homo Erectus 
-                                                                            Homo heidelbergensis
-                                                                            Homo Sapiens Sapiens (humans)
+                                                                               Homo heidelbergensis 700-300 kya
+                                                                                   Homo sapiens neanderthalensis 430-40 kya
+                                                                                   Homo Sapiens Sapiens (humans)
                                                             Australopithecus africanus 3.3-2.1 mya
                                                             Australopithecus bahrelghazali 3.6 mya
                                                             Australopithecus garhi 2.5 mya
