@@ -2,6 +2,18 @@
 Eutheria
     http://tolweb.org/Eutheria/15997
 
+GLOSSARY
+  mya - million years ago
+
+So. We (humans)
+   split from Laurasiatheria (incl. Carnivora) 95-85 mya,
+   and from Dermoptera 79 mya.  By 62 mya, Glires (rabbits, rodents)
+   split from the other placentals.  Unclear when the mrca
+   of primates and glires lived -- but no earlier than 95 mya
+   (Laurasiatheria-Euarchontoglires split).
+   We split from New World Monkeys (Spider Monkey, others)
+   only 35 mya.
+
 
     Boreoeutheria
         Laurasiatheria
@@ -19,11 +31,18 @@ Eutheria
                 Primates (split from Dermoptera 79 mya)
                     Strepsirrhini (wet-nosed primates) (lemur, loris, potto) (no eye socket)
                     Haplorhini (dry-nosed primates) (split from Strepsirrhini 90-55 mya)
-                        x
-                        x
+                        Tarsiiformes
+                        Simiiformes (split from Tarsier 60 mya)
+                            Plathyrrhine (new world monkey) < 33 lb
+                                spider monkey (prehensile tail)
+                            Catarrhini split from Plathyrrhini 35 mya
+                            
+
+
+
             (parent)
                 Scandentia (tree shrews)
-                Glires
+                Glires (split from other placentals 62 mya)
                     https://en.wikipedia.org/wiki/Glires
                     Rodentia
                     Lagomorphs
