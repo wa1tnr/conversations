@@ -11,10 +11,16 @@ Eutheria
             camels, pigs, deer, sheep, hippo, whale
             miacidae (62-33 mya) (superficially like marten, civet)
                 carnivores (cats, dogs, bears)
-        Euarchontoglires
+        Euarchontoglires (split from Laurasiatheria 95-85 mya)
             primatomorpha
+                https://en.wikipedia.org/wiki/Primatomorpha
                 Dermoptera (flying lemurs)
-                Primates
+
+                Primates (split from Dermoptera 79 mya)
+                    Strepsirrhini (wet-nosed primates) (lemur, loris, potto) (no eye socket)
+                    Haplorhini (dry-nosed primates) (split from Strepsirrhini 90-55 mya)
+                        x
+                        x
             (parent)
                 Scandentia (tree shrews)
                 Glires
