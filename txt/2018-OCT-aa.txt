@@ -45,8 +45,42 @@ So. We (humans)
                                 Hominoidea (apes)
                                     Hylobatidae (gibbons)
                                         (aka lesser apes) 18 species
-                                    hominids (great apes)
+                                    Hominidae (hominids) (aka great apes)
+                                        Ponginae (orangutans)
+                                        Homininae
+                                            Gorillini
+                                                gorilla
+                                            Hominini (chlca)
+                                                Panini
+                                                    Pan (chimpanzees)
+                                                    bonobos
+rework Hominina - unclear
+                                                Hominina
+                                                    Homo (humans)
+                                                    Australopithecina
+                                                        Australopithecus 4-2 mya
+                                                            Australopithecus anamensis 4 mya
+                                                                Australopithecus afarensis 3.9-2.9 mya
+                                                                    Lucy 3.2 mya
+                                                                        Homo Habilus 2.1-1.5 mya
+                                                                            Homo Ergaster 1.9-1.4 mya
+                                                                            Homo Erectus 
+                                                                            Homo heidelbergensis
+                                                                            Homo Sapiens Sapiens (humans)
+                                                            Australopithecus africanus 3.3-2.1 mya
+                                                            Australopithecus bahrelghazali 3.6 mya
+                                                            Australopithecus garhi 2.5 mya
+                                                            Australopithecus sediba 2.0 mya
+                                                        Paranthropus 2.6-1.1 mya
+                                                            Paranthropus robustus
+                                                            Paranthropus boisei
+                                                            Paranthropus aethiopicus
+                                                        Ardipithecus 5.6-4.4 mya
+                                                            Ardipithecus ramidus
+                                                            Ardipithecus kadabba
+                                    
 
+          chlca: see https://en.wikipedia.org/wiki/Chimpanzee%E2%80%93human_last_common_ancestor
                             
 
 
