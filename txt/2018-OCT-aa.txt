@@ -5,12 +5,16 @@ Eutheria
 
     Boreoeutheria
         Laurasiatheria
-            aaa
+            hedgehogs, moles, shrews
+            bats
+            horses, rhinos
+            camels, pigs, deer, sheep, hippo, whale
+            miacidae (62-33 mya) (superficially like marten, civet)
+                carnivores (cats, dogs, bears)
         Euarchontoglires
             primatomorpha
                 Dermoptera (flying lemurs)
                 Primates
-
             (parent)
                 Scandentia (tree shrews)
                 Glires
