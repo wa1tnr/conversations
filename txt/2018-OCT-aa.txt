@@ -33,9 +33,20 @@ So. We (humans)
                     Haplorhini (dry-nosed primates) (split from Strepsirrhini 90-55 mya)
                         Tarsiiformes
                         Simiiformes (split from Tarsier 60 mya)
-                            Plathyrrhine (new world monkey) < 33 lb
+                            Platyrrhini (new world monkey) < 33 lb
                                 spider monkey (prehensile tail)
                             Catarrhini split from Plathyrrhini 35 mya
+                                Cercopithecidae (split from Apes 25 mya)
+                                  aka Old World Monkey
+                                    baboon
+                                    mandrill
+                                    rhesus macaque
+                                    vervet
+                                Hominoidea (apes)
+                                    Hylobatidae (gibbons)
+                                        (aka lesser apes) 18 species
+                                    hominids (great apes)
+
                             
 
 
