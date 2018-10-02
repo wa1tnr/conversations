@@ -82,6 +82,7 @@ rework Hominina - unclear
                                     
 
           chlca: see https://en.wikipedia.org/wiki/Chimpanzee%E2%80%93human_last_common_ancestor
+          https://en.wikipedia.org/wiki/Interbreeding_between_archaic_and_modern_humans
                             
 
 
@@ -101,6 +102,15 @@ rework Hominina - unclear
   Antikythera machine
   Jupiter, Mars - interplanetary travel/habitation
   Neanderthal
+  Polar vs temperate latitudes, Antarctica
+  Rome, Italy      - 41.89 N
+  Windsor, CT      - 41.89 N (halfway from Hartford to Mass. State Line)
+
+  Marseille, FR      43.29 N 
+  Concord, NH        43.20 N
+  Lyon, FR           45.75 N
+  Bern, Swtzlnd      46.94 N
+  Munich, DE         48.13 N
   x
 
 Mon Oct  1 18:50:36 UTC 2018
