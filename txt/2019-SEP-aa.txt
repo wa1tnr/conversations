@@ -6,5 +6,9 @@ CoreForth
 
 Thumbulator:
 
+  [ https://github.com/dwelch67/thumbulator/wiki/thumbulator ]
+
+Local CoreForth implementation? on:
+
   [ https://github.com/ekoeppen/thumbulator ]
 
