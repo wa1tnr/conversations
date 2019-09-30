@@ -12,3 +12,6 @@ Local CoreForth implementation? on:
 
   [ https://github.com/ekoeppen/thumbulator ]
 
+Discussion of baremetal for the Raspberry Pi:
+
+  [ https://github.com/dwelch67/raspberrypi/tree/master/baremetal ]
