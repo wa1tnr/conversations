@@ -1,0 +1,304 @@
+
+ $ /usr/bin/arm-none-eabi-objdump  -S  -z  \
+     -I/home/proj/Arduino/interpreter-cortex_m0 \
+       /tmp/arduino_build_5663773/interpreter-cortex_m0.ino.elf 
+
+/tmp/arduino_build_566373/interpreter-cortex_m0.ino.elf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00004000 <__text_start__>:
+    4000:	20008000 	.word	0x20008000
+    4004:	000046f9 	.word	0x000046f9
+    4008:	000046e1 	.word	0x000046e1
+    400c:	000046e1 	.word	0x000046e1
+    4010:	00000000 	.word	0x00000000
+    4014:	00000000 	.word	0x00000000
+    4018:	00000000 	.word	0x00000000
+    401c:	00000000 	.word	0x00000000
+    4020:	00000000 	.word	0x00000000
+    4024:	00000000 	.word	0x00000000
+    4028:	00000000 	.word	0x00000000
+    402c:	000046e1 	.word	0x000046e1
+    4030:	00000000 	.word	0x00000000
+    4034:	00000000 	.word	0x00000000
+    4038:	000046e1 	.word	0x000046e1
+    403c:	0000474d 	.word	0x0000474d
+    4040:	000046e1 	.word	0x000046e1
+    4044:	000046e1 	.word	0x000046e1
+    4048:	000046e1 	.word	0x000046e1
+    404c:	000046e1 	.word	0x000046e1
+    4050:	000046e1 	.word	0x000046e1
+    4054:	000046e1 	.word	0x000046e1
+    4058:	000046e1 	.word	0x000046e1
+    405c:	000046e5 	.word	0x000046e5
+    4060:	000046e1 	.word	0x000046e1
+    4064:	0000462d 	.word	0x0000462d
+    4068:	000046e1 	.word	0x000046e1
+    406c:	000046e1 	.word	0x000046e1
+    4070:	000046e1 	.word	0x000046e1
+    4074:	000046e1 	.word	0x000046e1
+    4078:	0000463d 	.word	0x0000463d
+    407c:	000046e1 	.word	0x000046e1
+    4080:	000046e1 	.word	0x000046e1
+    4084:	000046e1 	.word	0x000046e1
+    4088:	000046e1 	.word	0x000046e1
+    408c:	000046e1 	.word	0x000046e1
+    4090:	00000000 	.word	0x00000000
+    4094:	000046e1 	.word	0x000046e1
+    4098:	000046e1 	.word	0x000046e1
+    409c:	000046e1 	.word	0x000046e1
+    40a0:	000046e1 	.word	0x000046e1
+    40a4:	000046e1 	.word	0x000046e1
+    40a8:	000046e1 	.word	0x000046e1
+    40ac:	000046e1 	.word	0x000046e1
+    40b0:	00000000 	.word	0x00000000
+
+000040b4 <__do_global_dtors_aux>:
+    40b4:	b510      	push	{r4, lr}
+    40b6:	4c06      	ldr	r4, [pc, #24]	; (40d0 <__do_global_dtors_aux+0x1c>)
+    40b8:	7823      	ldrb	r3, [r4, #0]
+    40ba:	2b00      	cmp	r3, #0
+    40bc:	d107      	bne.n	40ce <__do_global_dtors_aux+0x1a>
+    40be:	4b05      	ldr	r3, [pc, #20]	; (40d4 <__do_global_dtors_aux+0x20>)
+    40c0:	2b00      	cmp	r3, #0
+    40c2:	d002      	beq.n	40ca <__do_global_dtors_aux+0x16>
+    40c4:	4804      	ldr	r0, [pc, #16]	; (40d8 <__do_global_dtors_aux+0x24>)
+    40c6:	e000      	b.n	40ca <__do_global_dtors_aux+0x16>
+    40c8:	bf00      	nop
+    40ca:	2301      	movs	r3, #1
+    40cc:	7023      	strb	r3, [r4, #0]
+    40ce:	bd10      	pop	{r4, pc}
+    40d0:	20000104 	.word	0x20000104
+    40d4:	00000000 	.word	0x00000000
+    40d8:	00007680 	.word	0x00007680
+
+000040dc <frame_dummy>:
+    40dc:	b508      	push	{r3, lr}
+    40de:	4b08      	ldr	r3, [pc, #32]	; (4100 <frame_dummy+0x24>)
+    40e0:	2b00      	cmp	r3, #0
+    40e2:	d003      	beq.n	40ec <frame_dummy+0x10>
+    40e4:	4807      	ldr	r0, [pc, #28]	; (4104 <frame_dummy+0x28>)
+    40e6:	4908      	ldr	r1, [pc, #32]	; (4108 <frame_dummy+0x2c>)
+    40e8:	e000      	b.n	40ec <frame_dummy+0x10>
+    40ea:	bf00      	nop
+    40ec:	4807      	ldr	r0, [pc, #28]	; (410c <frame_dummy+0x30>)
+    40ee:	6803      	ldr	r3, [r0, #0]
+    40f0:	2b00      	cmp	r3, #0
+    40f2:	d003      	beq.n	40fc <frame_dummy+0x20>
+    40f4:	4b06      	ldr	r3, [pc, #24]	; (4110 <frame_dummy+0x34>)
+    40f6:	2b00      	cmp	r3, #0
+    40f8:	d000      	beq.n	40fc <frame_dummy+0x20>
+    40fa:	4798      	blx	r3
+    40fc:	bd08      	pop	{r3, pc}
+    40fe:	46c0      	nop			; (mov r8, r8)
+    4100:	00000000 	.word	0x00000000
+    4104:	00007680 	.word	0x00007680
+    4108:	20000108 	.word	0x20000108
+    410c:	20000100 	.word	0x20000100
+    4110:	00000000 	.word	0x00000000
+
+00004114 <_Z4noppv>:
+  bg();
+}
+
+/* everybody loves a nop */
+NAMED(_nopp, "nop");
+void nopp() { }
+    4114:	4770      	bx	lr
+
+00004116 <_Z3nopv>:
+
+/* Now build the dictionary */
+
+/* empty words don't cause an error */
+NAMED(_nop, " ");
+void nop() { }
+    4116:	4770      	bx	lr
+
+00004118 <_Z2crv>:
+NAMED(_nopp, "nop");
+void nopp() { }
+
+/* carriage return */
+NAMED(_cr, "cr");
+void cr() {
+    4118:	b508      	push	{r3, lr}
+  Serial.print("\r\n");
+    411a:	4802      	ldr	r0, [pc, #8]	; (4124 <_Z2crv+0xc>)
+    411c:	4902      	ldr	r1, [pc, #8]	; (4128 <_Z2crv+0x10>)
+    411e:	f000 fdaf 	bl	4c80 <_ZN5Print5printEPKc>
+}
+    4122:	bd08      	pop	{r3, pc}
+    4124:	2000018c 	.word	0x2000018c
+    4128:	00006fcc 	.word	0x00006fcc
+
+0000412c <_Z8_entriesv>:
+    Serial.print(namebuf);
+    Serial.print(" ");
+  }
+}
+
+void _entries() {
+    412c:	b510      	push	{r4, lr}
+  int a;
+  a = entries;
+  Serial.print(a);
+    412e:	4c05      	ldr	r4, [pc, #20]	; (4144 <_Z8_entriesv+0x18>)
+    4130:	220a      	movs	r2, #10
+    4132:	1c20      	adds	r0, r4, #0
+    4134:	211d      	movs	r1, #29
+    4136:	f000 fe04 	bl	4d42 <_ZN5Print5printEii>
+  Serial.print(" ");
+    413a:	1c20      	adds	r0, r4, #0
+    413c:	4902      	ldr	r1, [pc, #8]	; (4148 <_Z8_entriesv+0x1c>)
+    413e:	f000 fd9f 	bl	4c80 <_ZN5Print5printEPKc>
+}
+    4142:	bd10      	pop	{r4, pc}
+    4144:	2000018c 	.word	0x2000018c
+    4148:	00006fa7 	.word	0x00006fa7
+
+0000414c <_Z5wordsv>:
+  {_nopp, nopp},
+};
+
+const int entries = sizeof dictionary / sizeof dictionary[0];
+/* Display all words in dictionary */
+void words() {
+    414c:	b570      	push	{r4, r5, r6, lr}
+    414e:	2400      	movs	r4, #0
+    4150:	4b0a      	ldr	r3, [pc, #40]	; (417c <_Z5wordsv+0x30>)
+  for (int i = entries - 1; i >= 0; i--) {
+    strcpy(namebuf, dictionary[i].name);
+    4152:	4e0b      	ldr	r6, [pc, #44]	; (4180 <_Z5wordsv+0x34>)
+    4154:	191b      	adds	r3, r3, r4
+    4156:	33e0      	adds	r3, #224	; 0xe0
+    4158:	6819      	ldr	r1, [r3, #0]
+    415a:	1c30      	adds	r0, r6, #0
+    415c:	f002 fa92 	bl	6684 <strcpy>
+    Serial.print(namebuf);
+    4160:	4d08      	ldr	r5, [pc, #32]	; (4184 <_Z5wordsv+0x38>)
+    4162:	1c31      	adds	r1, r6, #0
+    4164:	1c28      	adds	r0, r5, #0
+    4166:	f000 fd8b 	bl	4c80 <_ZN5Print5printEPKc>
+    416a:	3c08      	subs	r4, #8
+    Serial.print(" ");
+    416c:	1c28      	adds	r0, r5, #0
+    416e:	4906      	ldr	r1, [pc, #24]	; (4188 <_Z5wordsv+0x3c>)
+    4170:	f000 fd86 	bl	4c80 <_ZN5Print5printEPKc>
+};
+
+const int entries = sizeof dictionary / sizeof dictionary[0];
+/* Display all words in dictionary */
+void words() {
+  for (int i = entries - 1; i >= 0; i--) {
+    4174:	1c23      	adds	r3, r4, #0
+    4176:	33e8      	adds	r3, #232	; 0xe8
+    4178:	d1ea      	bne.n	4150 <_Z5wordsv+0x4>
+    strcpy(namebuf, dictionary[i].name);
+    Serial.print(namebuf);
+    Serial.print(" ");
+  }
+}
+    417a:	bd70      	pop	{r4, r5, r6, pc}
+    417c:	00006eb0 	.word	0x00006eb0
+    4180:	20000130 	.word	0x20000130
+    4184:	2000018c 	.word	0x2000018c
+    4188:	00006fa7 	.word	0x00006fa7
+
+0000418c <_Z4pushi>:
+char namebuf[maxtib];
+byte pos;
+
+/* push n to top of data stack */
+void push(int n) {
+  p = (p + 1)& STKMASK;
+    418c:	4a04      	ldr	r2, [pc, #16]	; (41a0 <_Z4pushi+0x14>)
+    418e:	230f      	movs	r3, #15
+    4190:	6811      	ldr	r1, [r2, #0]
+    4192:	3101      	adds	r1, #1
+    4194:	400b      	ands	r3, r1
+    4196:	6013      	str	r3, [r2, #0]
+  TOS = n;
+    4198:	4a02      	ldr	r2, [pc, #8]	; (41a4 <_Z4pushi+0x18>)
+    419a:	009b      	lsls	r3, r3, #2
+    419c:	5098      	str	r0, [r3, r2]
+}
+    419e:	4770      	bx	lr
+    41a0:	20000184 	.word	0x20000184
+    41a4:	20000140 	.word	0x20000140
+
+000041a8 <_Z3dupv>:
+  pop();
+}
+
+/* copy top of stack */
+NAMED(_dup, "dup");
+void dup() {
+    41a8:	b508      	push	{r3, lr}
+  push(TOS);
+    41aa:	4b04      	ldr	r3, [pc, #16]	; (41bc <_Z3dupv+0x14>)
+    41ac:	681a      	ldr	r2, [r3, #0]
+    41ae:	4b04      	ldr	r3, [pc, #16]	; (41c0 <_Z3dupv+0x18>)
+    41b0:	0092      	lsls	r2, r2, #2
+    41b2:	58d0      	ldr	r0, [r2, r3]
+    41b4:	f7ff ffea 	bl	418c <_Z4pushi>
+}
+    41b8:	bd08      	pop	{r3, pc}
+    41ba:	46c0      	nop			; (mov r8, r8)
+    41bc:	20000184 	.word	0x20000184
+    41c0:	20000140 	.word	0x20000140
+
+000041c4 <_Z5blackv>:
+/*  ^[[47m produces white  bg text */
+
+char color; // not really restricted to color
+
+NAMED(_black, "black"); // ^[[30m
+void black() {
+    41c4:	b508      	push	{r3, lr}
+  push('\060'); // 0x30  48
+    41c6:	2030      	movs	r0, #48	; 0x30
+    41c8:	f7ff ffe0 	bl	418c <_Z4pushi>
+  push('\063'); // 0x33  51
+    41cc:	2033      	movs	r0, #51	; 0x33
+    41ce:	f7ff ffdd 	bl	418c <_Z4pushi>
+}
+    41d2:	bd08      	pop	{r3, pc}
+
+000041d4 <_Z3redv>:
+
+NAMED(_red, "red");
+void red() {
+    41d4:	b508      	push	{r3, lr}
+  push('\061'); // 0x31  49
+    41d6:	2031      	movs	r0, #49	; 0x31
+    41d8:	f7ff ffd8 	bl	418c <_Z4pushi>
+  push('\063');
+    41dc:	2033      	movs	r0, #51	; 0x33
+    41de:	f7ff ffd5 	bl	418c <_Z4pushi>
+}
+    41e2:	bd08      	pop	{r3, pc}
+
+000041e4 <_Z6yellowv>:
+
+NAMED(_yellow, "yellow");
+void yellow() {
+    41e4:	b508      	push	{r3, lr}
+  push('\063'); // 0x33
+    41e6:	2033      	movs	r0, #51	; 0x33
+    41e8:	f7ff ffd0 	bl	418c <_Z4pushi>
+  push('\063'); // 0x33   ^[[33m gives bright yellow text
+    41ec:	2033      	movs	r0, #51	; 0x33
+    41ee:	f7ff ffcd 	bl	418c <_Z4pushi>
+}
+    41f2:	bd08      	pop	{r3, pc}
+
+000041f4 <_Z4cyanv>:
+
+NAMED(_cyan, "cyan");
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - -   truncated file. ;)    - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
