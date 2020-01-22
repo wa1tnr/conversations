@@ -120,7 +120,8 @@ static const uint8_t A5  = PIN_A5;
 /*
  * SPI Interfaces
  */
-#define SPI_INTERFACES_COUNT 1
+
+#define SPI_INTERFACES_COUNT 2 // was 1
 
 #define PIN_SPI_MISO         (2ul) // PA06
 #define PIN_SPI_MOSI         (0ul) // PA04
@@ -129,11 +130,25 @@ static const uint8_t A5  = PIN_A5;
 #define PAD_SPI_TX           SPI_PAD_0_SCK_1
 #define PAD_SPI_RX           SERCOM_RX_PAD_2
 
+// SPI FLASH
+#define PIN_SPI1_MISO        (12ul) //  PA18 // D12  //     PA18 FLASH_MISO // D12
+#define PIN_SPI1_MOSI        (11ul) //  PA16 // D11  //     PA16 FLASH_MOSI // D11
+#define PIN_SPI1_SCK         (9ul)  //  PA17 //  D9  //     PA17 FLASH_SCK  //  D9
+#define PIN_SPI1_SS          (10ul) //  PA15 // D10  //     PA15 FLASH_CS   // D10
+
+#define PERIPH_SPI1          sercom3 // serpente r2 schematic
+#define PAD_SPI1_TX          SPI_PAD_0_SCK_1 // tnr checked datasheet e18a: sercom3 pad 0
+#define PAD_SPI1_RX          SERCOM_RX_PAD_2 // tnr checked datasheet e18a: sercom3 pad 2
+
 static const uint8_t SS	  = 3 ;
 static const uint8_t MOSI = PIN_SPI_MOSI ;
 static const uint8_t MISO = PIN_SPI_MISO ;
 static const uint8_t SCK  = PIN_SPI_SCK ;
 
+static const uint8_t SS1  = 10 ; // HW SS isn't used.  Set here only for reference. tnr: ?
+static const uint8_t MOSI1 = PIN_SPI_MOSI ; // tnr // odd but metro m0 does this
+static const uint8_t MISO1 = PIN_SPI_MISO ; // tnr // odd but metro m0 does this
+static const uint8_t SCK1  = PIN_SPI_SCK ;  // tnr // odd but metro m0 does this
 
 /*
  * Wire Interfaces
