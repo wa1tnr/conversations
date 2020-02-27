@@ -50,3 +50,74 @@ starts at zero and ends up back at zero).
  1,000 milliseconds equals 1 second.
 
 
+ 1 Hz == foo
+ 10 Hz == 100 ms
+
+ 100 Hz .. once again, divide by ten (from the previous iteration at 10 Hz).
+
+ If 1 Hz means they are 1 second apart, and
+   10 Hz means they are 1/10 of a second apart, then
+  100 Hz means they are 1/100 of a second apart: 1/100 = 0.01 seconds between successive pulses.
+
+ 0.010 seconds means the same thing as 10 milliseconds does.
+
+ 1 Hz == foo
+10 Hz == 100 ms
+100 Hz == 10 ms
+
+So you can see that 'foo' should be replaced by 1,000 ms (aka 1 second).
+
+That should be enough to propagate a table of values:
+
+      1 Hz  1000 ms
+     10 Hz   100 ms
+    100 Hz    10 ms
+   1000 Hz     1 ms
+
+Rather than get into fractional milliseconds, it becomes convenient
+to speak of nanoseconds.
+
+  1 nanosecond == 1,000 milliseconds, or 1,000,000 milliseconds.
+
+This is a good lookup on Wikipedia.
+
+Wikipedia gives it nine zeroes, and also lists it as 10 ^ -9 power.
+
+So, 1 / 1,000,000,000 seconds:
+
+1 / 1000 seconds is  1 millisecond
+
+1 / 1000 = 0.001 second
+
+1 / 1,000,000 seconds is 0.001 milliseconds and also is 0.000001 seconds.
+
+1 / 1,000,000,000 seconds is 0.000001 milliseconds
+
+1 / 1,000,000,000 seconds is 1.0 nanoseconds (ns)
+
+
+Repeating the table from above:
+
+      1 Hz    1000 ms
+     10 Hz     100 ms
+    100 Hz      10 ms
+   1000 Hz       1 ms
+
+      1 kHz        1 ms  (one kilohertz clock frequency gives pulses spaced 1 millisecond apart)
+
+     10 kHz      0.1 ms
+    100 kHz     0.01 ms
+   1000 kHz    0.001 ms
+      1 MHz   0.0001 ms  (one megahertz clock gives 0.001 ms pulse spacing)
+     10 MHz  0.00001 ms
+    100 MHz 0.000001 ms
+
+One nanosecond is also:
+            0.000001 milliseconds
+
+So, if no mistakes in propagation of the table have been
+made, a 100 MHz MCU clock frequency should be able to generate
+one nanosecond pulse spacing (each pulse of a 100 MHz clock
+ought to be spaced one nanosecond apart).
+
+
