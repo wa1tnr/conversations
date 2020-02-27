@@ -131,22 +131,22 @@ above was corrected (a typo was found!) .. a mistake had been made
 Now some translational values can be added to the table:
 
 
-      1 Hz       1000 ms  1,000,000,000 ns   1.0 sec          1/1
-     10 Hz        100 ms    100,000,000 ns   0.1 sec          1/10
-    100 Hz         10 ms     10,000,000 ns   0.01 sec         1/100
-   1000 Hz          1 ms      1,000,000 ns   0.001 sec        1/1000
+      1 Hz       1000 ms  1,000,000 µs   1.0 sec          1/1
+     10 Hz        100 ms    100,000 µs   0.1 sec          1/10
+    100 Hz         10 ms     10,000 µs   0.01 sec         1/100
+   1000 Hz          1 ms      1,000 µs   0.001 sec        1/1000
 
-      1 kHz         1 ms      1,000,000 ns   0.001 sec        1/1000 (Repeat)
-     10 kHz       0.1 ms        100,000 ns   0.0001 sec       1/10000  or 1/10,000
-    100 kHz      0.01 ms         10,000 ns   0.00001 sec      1/100,000
-   1000 kHz     0.001 ms           1000 ns   0.000001 sec     1/1,000,000
+      1 kHz         1 ms      1,000 µs   0.001 sec        1/1000 (Repeat)
+     10 kHz       0.1 ms        100 µs   0.0001 sec       1/10000  or 1/10,000
+    100 kHz      0.01 ms         10 µs   0.00001 sec      1/100,000
+   1000 kHz     0.001 ms          1 µs   0.000001 sec     1/1,000,000
 
-      1 MHz     0.001 ms           1000 ns   0.000001 sec     1/1,000,000 (repeat)
-     10 MHz    0.0001 ms            100 ns   0.0000001 sec    1/10,000,000
-    100 MHz   0.00001 ms             10 ns   0.00000001 sec   1/100,000,000
-   1000 MHz  0.000001 ms              1 ns   0.000000001 sec  1/1,000,000,000
+      1 MHz     0.001 ms       1000 ns   0.000001 sec     1/1,000,000 (repeat)
+     10 MHz    0.0001 ms        100 ns   0.0000001 sec    1/10,000,000
+    100 MHz   0.00001 ms         10 ns   0.00000001 sec   1/100,000,000
+   1000 MHz  0.000001 ms          1 ns   0.000000001 sec  1/1,000,000,000
 
-      1 GHz  0.000001 ms              1 ns   0.000000001 sec  1/1,000,000,000 (repeat)
+      1 GHz  0.000001 ms          1 ns   0.000000001 sec  1/1,000,000,000 (repeat)
 
 This is not a set-up: did entirely forget about the unit known as the microsecond, or µsec.
 
@@ -154,6 +154,9 @@ This is not a set-up: did entirely forget about the unit known as the microsecon
 1,000,000 nanoseconds – one millisecond (ms)
 
 from Wikipedia.
+
+1,000 µsec is 1 ms is 1,000,000 ns
+
 
 
 END.
