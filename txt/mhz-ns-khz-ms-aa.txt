@@ -73,9 +73,9 @@ Each cycle:
 
  0.010 seconds means the same thing as 10 milliseconds does.
 
-     1 Hz == foo
-    10 Hz == 100 ms
-    100 Hz == 10 ms
+       1 Hz == foo
+      10 Hz == 100 ms
+     100 Hz ==  10 ms
 
  So you can see that 'foo' should be replaced by
  1,000 ms (aka 1 second).
@@ -90,17 +90,36 @@ Each cycle:
  Rather than get into fractional milliseconds, it becomes convenient
  to speak of microseconds.
 
+     1 µsec == 0.000001 seconds (10 ^-6 or 1/1,000,000 seconds).
+
+     1 µsec == 1/1,000 ms (0.001 ms)
+
+     1 ms   == 1,000 µsec
+
+     1 µsec == 1,000 ns (nanoseconds)
+
+     1 ns   == 1/1,000 µs (0.001 µs)
+
+
+
+ splat paste:
+
+ (Wikipedia)
+
+ A microsecond is equal to 1000 nanoseconds or 1/1,000 of a millisecond.
+ Because the next SI prefix is 1000 times larger, measurements of
+ 10 ^−5 and 10 ^−4 seconds are typically expressed as tens or hundreds
+ of microseconds.
+
+end splat paste.
+
    1 microsecond == 1 / 1,000th of 1 millisecond
 
-   0.001 seconds == 1 millisecond
+   0.001 seconds == 1 millisecond (1/1000 of 1 second)
 
    1.0 millisecond == 1,000 microseconds
 
-
-
-   1 nanosecond == 1,000 milliseconds, or 1,000,000 milliseconds.
-
-This is a good lookup on Wikipedia.
+This are good lookups for these, on Wikipedia.
 
 Wikipedia gives it nine zeroes, and also lists it as 10 ^ -9 power.
 
