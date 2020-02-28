@@ -1,6 +1,6 @@
 mhz-ns-khz-ms-aa.txt
 
-Fri Feb 28 14:04:58 UTC 2020
+Fri Feb 28 15:20:14 UTC 2020
 
 Megahertz (MHz)  nanosecond (ns)  Kilohertz (kHz)  millisecond (ms)
 
@@ -118,16 +118,19 @@ Each cycle:
      repeating wave-form (hereafter referred to as 'waveform'
      without the hyphen. ;)
 
- 1 / 1000 Hz == 1 ms
- 1 /   1 kHz == 1 ms (1000 Hz == 1 kHz)
+     1 / 1000 Hz == 1 ms
+     1 /   1 kHz == 1 ms (1000 Hz == 1 kHz)
 
 
- So, 1 / f (kHz) == t (ms)
+     So, 1 / f (kHz) == t (ms)
 
- That is, take 1, and divide it by the frequency (in kiloHertz)
- to get the pulse interval in milliseconds.
+     That is, take 1, and divide it by the frequency (in kiloHertz)
+     to get the pulse interval in milliseconds.
 
 
+
+###bookmark - stopped editing here (top to bottom editing session)
+###Fri Feb 28 15:20:25 UTC 2020
 
  Microseconds
 
