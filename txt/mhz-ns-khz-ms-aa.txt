@@ -1,6 +1,6 @@
 mhz-ns-khz-ms-aa.txt
 
-Thu Feb 27 19:02:53 UTC 2020
+Fri Feb 28 14:04:58 UTC 2020
 
 Megahertz (MHz)  nanosecond (ns)  Kilohertz (kHz)  millisecond (ms)
 
@@ -9,7 +9,8 @@ Megahertz (MHz)  nanosecond (ns)  Kilohertz (kHz)  millisecond (ms)
 Each cycle:
 
  * starts at zero.
- * increases to maximum positive value, usually following a sine wave curve to get there.
+ * increases to maximum positive value, usually following a sine
+   wave curve to get there.
  * decreases to zero.  cross zero into the negative range.
  * decreases to maximum negative value.
  * increases again, to reach the zero crossing.
@@ -24,18 +25,19 @@ Each cycle:
     x                         x
     xxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-Normalized, this means you make one positive-going pulse during
-the cycle.
+ Normalized, this means you make one positive-going pulse during
+ the cycle.
 
-You also make one negative going pulse, 180 degrees out of phase
-with the positive going pulse (at 1/4 and 3/4 of the cycle, in
-timing, with the convention that the cycle starts at zero and ends
-up back at zero).
+ You also make one negative going pulse, 180 degrees out of phase
+ with the positive going pulse (at 1/4 and 3/4 of the cycle, in
+ timing, with the convention that the cycle starts at zero and ends
+ up back at zero).
 
 
  1 cycle per second = 1 Hz
 
- distance between the pulses is 1 second apart, for either type (negative or positive pulse).
+ Distance between the pulses is 1 second apart, for either type
+ (negative or positive pulse).
 
  You could call this 1 pulse per second and be speaking of the very same thing/idea.
 
