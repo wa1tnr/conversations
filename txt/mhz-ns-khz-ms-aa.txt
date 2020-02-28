@@ -51,13 +51,16 @@ Each cycle:
  You may call this 0.1 second pulses, or, more conventionally, move
  the decimal point over three places, and refer to it as:
 
- 100 milliseconds
+     100 milliseconds
 
- 0.100 seconds  == 100 milliseconds (100 ms)
+     0.100 seconds  == 100 milliseconds (100 ms)
 
- 1,000 milliseconds equals 1 second.
+     1,000 milliseconds equals 1 second.
 
- 1 millisecond == 1/1,000 of 1 second (0.001 seconds)
+     1 millisecond == 1/1,000 of 1 second (0.001 seconds)
+
+
+ So, a table can be constructed, beginning with:
 
        1 Hz == foo
       10 Hz == 100 ms
@@ -87,6 +90,34 @@ Each cycle:
       10 Hz   100 ms
      100 Hz    10 ms
     1000 Hz     1 ms
+
+
+
+ FORMULA
+
+     1 / f = something good ;)
+
+     ex.   1 / 1000 Hz == 0.001 somethings.  What, exactly?
+
+     1 / 1000 Hz == 0.001 seconds between two successive pulses (from the crest of one wave to the next crest over, on a graph showing how the amplitude changes over time).
+
+     0.001 seconds == 1 millisecond
+
+     1 / 1000 Hz == 1 ms
+
+
+     "An alternating current with a frequency of 1,000 cycles per second
+      produces a pulse train with 1 millisecond spacing between two
+      successive pulses."
+
+     Though this would seem especially true, in the case of a
+     square wave, it also applies to the general case, for any
+     repeating wave-form (hereafter referred to as 'waveform'
+     without the hyphen. ;)
+
+
+
+
 
  Rather than get into fractional milliseconds, it becomes convenient
  to speak of microseconds.
