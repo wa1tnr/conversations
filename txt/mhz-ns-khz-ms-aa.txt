@@ -99,11 +99,14 @@ Each cycle:
 
      ex.   1 / 1000 Hz == 0.001 somethings.  What, exactly?
 
-     1 / 1000 Hz == 0.001 seconds between two successive pulses (from the crest of one wave to the next crest over, on a graph showing how the amplitude changes over time).
+     1 / 1000 Hz == 0.001 seconds between two successive pulses
+                         (from the crest of one wave to the next
+                          crest over, on a graph showing how the
+                          amplitude changes over time).
 
      0.001 seconds == 1 millisecond
 
-     1 / 1000 Hz == 1 ms
+     1 / 1000 Hz == 1 ms pulse-interval
 
 
      "An alternating current with a frequency of 1,000 cycles per second
@@ -115,9 +118,18 @@ Each cycle:
      repeating wave-form (hereafter referred to as 'waveform'
      without the hyphen. ;)
 
+ 1 / 1000 Hz == 1 ms
+ 1 /   1 kHz == 1 ms (1000 Hz == 1 kHz)
+
+
+ So, 1 / f (kHz) == t (ms)
+
+ That is, take 1, and divide it by the frequency (in kiloHertz)
+ to get the pulse interval in milliseconds.
 
 
 
+ Microseconds
 
  Rather than get into fractional milliseconds, it becomes convenient
  to speak of microseconds.
