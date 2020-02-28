@@ -1,0 +1,66 @@
+6.206 x 10 ^-8
+
+
+0.062 / 1,000,000
+
+millisecond: thousand
+usec: million (one thousand milliseconds)
+
+16 MHz is therefore 0.062 usec
+
+ns = 1,000 usec
+
+16 MHz is therefore 62 ns
+
+exact:
+
+16 MHz = 6.25 e-08
+
+So 62.5 ns
+
+ 8 MHz:
+
+ 1/8 = 0.125
+ 1/8000 = 0.000125
+ 1/8,000,000 = 0.000000125
+
+ 0.000000125 * 1,000,000,000 = 125 ns
+
+ (8 MHz is half of 16 MHz, so changes more slowly,
+  and so the pulse interval is exactly twice that
+  of 16 MHz)
+
+
+  "1,000 milliseconds  is  one second."
+
+  "1,000 microseconds  is  one millisecond."
+
+  "1,000 nanoseconds   is  one microsecond."
+
+   1,000 ms   = 1 s
+   1,000 µsec = 1 ms
+   1,000 ns   = 1 µsec
+
+   0.001 s    = 1 ms
+   0.001 ms   = 1 µsec
+   0.001 µsec = 1 ns
+
+   8 MHz = 1 / f = 125 ns  (1.25e-07)
+
+
+   0.125        1.25e-01          (1/8)
+   0.0125       1.25e-02         (1/80)
+   0.00125      1.25e-03        (1/800)
+   0.000125     1.25e-04      (1/8,000)
+   0.0000125    1.25e-05     (1/80,000)
+   0.00000125   1.25e-06    (1/800,000)
+   0.000000125  1.25e-07  (1/8,000,000)
+
+   0.000000125 seconds pulse-interval = 8 MHz clock frequency
+
+     0.000000125  seconds
+     0.000125     milliseconds
+     0.125        microseconds
+   125.0          nanoseconds
+
+
