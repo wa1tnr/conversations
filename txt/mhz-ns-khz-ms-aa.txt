@@ -75,7 +75,7 @@ That should be enough to propagate a table of values:
    1000 Hz     1 ms
 
 Rather than get into fractional milliseconds, it becomes convenient
-to speak of nanoseconds.
+to speak of nanoseconds. [EDIT: no, microseconds is next.]
 
   1 nanosecond == 1,000 milliseconds, or 1,000,000 milliseconds.
 
