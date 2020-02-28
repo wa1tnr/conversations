@@ -39,14 +39,17 @@ Each cycle:
  Distance between the pulses is 1 second apart, for either type
  (negative or positive pulse).
 
- You could call this 1 pulse per second and be speaking of the very same thing/idea.
+ You could call this 1 pulse per second and be speaking of the very
+ same thing/idea.
 
 
  10 cycles per second = 10 Hz  (Hertz)
 
- distance between the pulses is 1/10th of what it was for one Hertz, so it's 1/10 of a second apart.
+ Distance between the pulses is 1/10th of what it was for one Hertz,
+ so it's 1/10 of a second apart.
 
- You may call this 0.1 second pulses, or, more conventionally, move the decimal point over three places, and refer to it as:
+ You may call this 0.1 second pulses, or, more conventionally, move
+ the decimal point over three places, and refer to it as:
 
  100 milliseconds
 
@@ -58,31 +61,44 @@ Each cycle:
  1 Hz == foo
  10 Hz == 100 ms
 
- 100 Hz .. once again, divide by ten (from the previous iteration at 10 Hz).
+ 100 Hz .. once again, divide by ten (from the previous
+           iteration at 10 Hz).
 
  If 1 Hz means they are 1 second apart, and
    10 Hz means they are 1/10 of a second apart, then
-  100 Hz means they are 1/100 of a second apart: 1/100 = 0.01 seconds between successive pulses.
+
+  100 Hz means they are 1/100 of a second apart:
+
+         1/100 = 0.01 seconds between successive pulses.
 
  0.010 seconds means the same thing as 10 milliseconds does.
 
- 1 Hz == foo
-10 Hz == 100 ms
-100 Hz == 10 ms
+     1 Hz == foo
+    10 Hz == 100 ms
+    100 Hz == 10 ms
 
-So you can see that 'foo' should be replaced by 1,000 ms (aka 1 second).
+ So you can see that 'foo' should be replaced by
+ 1,000 ms (aka 1 second).
 
-That should be enough to propagate a table of values:
+ That should be enough to propagate a table of values:
 
-      1 Hz  1000 ms
-     10 Hz   100 ms
-    100 Hz    10 ms
-   1000 Hz     1 ms
+       1 Hz  1000 ms
+      10 Hz   100 ms
+     100 Hz    10 ms
+    1000 Hz     1 ms
 
-Rather than get into fractional milliseconds, it becomes convenient
-to speak of nanoseconds. [EDIT: no, microseconds is next.]
+ Rather than get into fractional milliseconds, it becomes convenient
+ to speak of microseconds.
 
-  1 nanosecond == 1,000 milliseconds, or 1,000,000 milliseconds.
+   1 microsecond == 1 / 1,000th of 1 millisecond
+
+   0.001 seconds == 1 millisecond
+
+   1.0 millisecond == 1,000 microseconds
+
+
+
+   1 nanosecond == 1,000 milliseconds, or 1,000,000 milliseconds.
 
 This is a good lookup on Wikipedia.
 
