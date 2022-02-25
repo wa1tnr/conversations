@@ -35,11 +35,13 @@ Measure the Sun angle at 60 degrees latitude; it'll be 30 degrees above your Sou
 
 The same evening, take a sighting of Polaris; it'll measure 60 (degrees) above the North horizon at that same location.
 
+```
 Lat   Polaris   Sun
  90        90     0
  80        80    10
  70        70    20  70 + 20 = 90
  60        60    30  60 + 30 = 90
+```
  
 and so on.
 
