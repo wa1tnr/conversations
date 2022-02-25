@@ -56,10 +56,12 @@ If you were standing at the Equator on December 21st, and walked south 23 1/2 de
 
 Polaris would be 23 1/2 degrees 'below' your local Northern horizon.
 
+```
 Pole-to-Equator: 90
 Equator-to-Sun: 23.5
 
 Your latitude: -23.5 (south)
+```
 
 90 + 23.5 = 113.5 degrees, change of latitude from the North Pole (can't think of why this observation is useful, at the moment, though).
 
@@ -71,7 +73,10 @@ Put yourself at 40 degrees North on December 21st (with an interim step of Septe
 Take September 21st figures (recorded) to get your local noon sun angle (facing south).  September 21st is the 'Autumnal Equinox' (Earth's so-called 'tilt' of 23.5 degrees is nulled out on this date, with respect to the Sun).
 
 
-90 - your latitude = 90 - 40 = 50 degrees (sun altitude at noon near New York City (very approximately) or Philadelphia, Pennsylvania (quite exactly).
+```
+90 - your latitude = 90 - 40 = 50 degrees
+```
+(sun altitude at noon near New York City (very approximately) or Philadelphia, Pennsylvania (quite exactly).
 
 
 Sun's altitude can't be 40, because 40 is Polaris' altitude (at 40 North for any day of the year, including 'our' September 21st under consideration, for Philly, PA).
@@ -79,7 +84,10 @@ Sun's altitude can't be 40, because 40 is Polaris' altitude (at 40 North for any
 
 That helps to anchor it firmly: Polaris' altitude always tracks your latitude, in the Northern Hemisphere  - the angles are exactly the same.
 
-90 - 40 = 50 so that has to be the (remaining) angle, which is the Sun's altitude (on March 21st) at 40 North (latitude of Philly PA).
+```
+90 - 40 = 50
+```
+so that has to be the (remaining) angle, which is the Sun's altitude (on March 21st) at 40 North (latitude of Philly PA).
 
 
 Stand on that spot (in Philadelphia) until noon, of December 21st (transitioning from Autumn to Winter).
@@ -91,7 +99,11 @@ On September 21st, at noon, the Sun's altitude in Philadelphia is somewhere arou
 
 September 21st, Noon, facing South:
 
-90 - 40 = 50 degrees.  You aim your pointy stick at the Sun so that it casts no shadow; the angle of your stick is 50 degrees from the horizon (or your flat level table-top).
+```
+90 - 40 = 50 degrees.
+
+```
+You aim your **pointy stick** at the Sun so that it casts no shadow; the angle of your stick is 50 degrees from the horizon (or your flat level table-top).
 
 Wait for December 21st to arrive.
 
@@ -99,17 +111,25 @@ Each day the Sun got lower and lower at noon, until December 21st.
 
 On December 21st, you have 90 - 40 (your latitude) = 50 (sun angle) less that 23.5 degrees of the Tropics (the 'tilt' of the Earth's polar axis).
 
+```
 40 - 23.5 = 16.5 - wrong answer.
+```
 
 Remember that this '40' is also the angle of Polaris at 40 North.  So swap in '50' (Sun angle at noon on September 21st) instead and it's:
 
-50 - 23.5 = 26.5 - correct answer!
+```
+50 - 23.5 = 26.5
+```
+correct answer!
 
 That's the Sun's angle above your local horizon (as a Philadelphia, PA visitor) on December 21st (of any year).
 
 Similarly, for June 21st:
 
-50 + 23.5 = 73.5 degrees - also a correct answer!
+```
+50 + 23.5 = 73.5 degrees
+```
+also a correct answer!
 
 In Philadelphia PA on June 21st, at Noon, the Sun is ('way up there') at 73.5 degrees above the southern horizon.
 
@@ -119,14 +139,18 @@ IN ALL CASES the math boils down to:
 
 At the Equinoxes, you just drop the Tropics term (plus or minus 23.5 degrees) and take the direct math between your latitude and '90'.
 
+```
 90 - 40 = 50 (sun angle)
+```
 
 For 50 north (Winnipeg, Manitoba, Canada; or Prague, Frankfurt, Krakow):
 
+```
 90 - 50 = 40 (sun angle, Equinox)
 
 40 - 23.5 = 16.5 (winter)
 40 + 23.5 = 63.5 (summer)
+```
 
 Those are your two solar angle extremes for the year (in Prague, Krakow, or Franfurt .. as well as in Winnipeg).
 
