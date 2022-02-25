@@ -118,18 +118,16 @@ On December 21st, you have 90 - 40 (your latitude) = 50 (sun angle) less that 23
 Remember that this '40' is also the angle of Polaris at 40 North.  So swap in '50' (Sun angle at noon on September 21st) instead and it's:
 
 ```
-50 - 23.5 = 26.5
+50 - 23.5 = 26.5 - correct answer!
 ```
-correct answer!
 
 That's the Sun's angle above your local horizon (as a Philadelphia, PA visitor) on December 21st (of any year).
 
 Similarly, for June 21st:
 
 ```
-50 + 23.5 = 73.5 degrees
+50 + 23.5 = 73.5 degrees - also a correct answer!
 ```
-also a correct answer!
 
 In Philadelphia PA on June 21st, at Noon, the Sun is ('way up there') at 73.5 degrees above the southern horizon.
 
@@ -155,4 +153,4 @@ For 50 north (Winnipeg, Manitoba, Canada; or Prague, Frankfurt, Krakow):
 Those are your two solar angle extremes for the year (in Prague, Krakow, or Franfurt .. as well as in Winnipeg).
 
 
-END.
+**END**.
