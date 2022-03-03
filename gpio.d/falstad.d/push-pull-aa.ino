@@ -1,6 +1,8 @@
-// Thu  3 Mar 13:09:25 UTC 2022
+// Thu  3 Mar 13:19:49 UTC 2022
 
 // initially unrelated code - avr8js boilerplate program
+
+// https://tinyurl.com/y7hzclml  - circuit only
 
 void setup() {
   Serial.begin(115200);
