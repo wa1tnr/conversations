@@ -1,8 +1,10 @@
-Thu  3 Mar 15:26:47 UTC 2022
+Thu  3 Mar 15:36:18 UTC 2022
 
   https://www.falstad.com/circuit/avr8js/
   
   https://tinyurl.com/yceyj6ld  with two switches - latest
+  
+    (high-fidelity copy of circuit-20220303-1512.circuitjs.txt circuit)
 
 OLD:
 
