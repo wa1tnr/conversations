@@ -12,6 +12,10 @@ NOTE!
   (as depicted, here).
 
   https://www.falstad.com/circuit/avr8js/
+
+  https://tinyurl.com/yb5yqbww  with two switches - latest Open Drain config
+  
+  RESCINDED:
   
   https://tinyurl.com/yceyj6ld  with two switches - latest
   
