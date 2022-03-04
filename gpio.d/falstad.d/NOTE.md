@@ -6,6 +6,4 @@ Fri  4 Mar 13:16:35 UTC 2022
 
   https://tinyurl.com/yae97j3o
 
-  ~~https://tinyurl.com/y7hzclml~~
-
 END.
